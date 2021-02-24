@@ -5,8 +5,8 @@ if not os.path.isfile("run2.tar"):
   url = 'https://drive.google.com/uc?id=0B9P1L--7Wd2vNm9zMTJWOGxobkU'
   output = 'run2.tar'
   gdown.download(url, output, quiet=False)
-  print("")
-  return
+  print("Untar run2.tar")
+  exit(0)
 runName = "run2"
 sess = gpt2.start_tf_sess()
 gpt2.load_gpt2(sess, run_name=runName)
