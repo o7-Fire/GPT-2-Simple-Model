@@ -2,7 +2,7 @@ import gpt_2_simple as gpt2
 import os.path
 import gdown
 if not os.path.isfile("run2.tar"):
-  url = 'https://drive.google.com/file/d/1T5BntQPxoRjGDMAUbqUwUnsDs2DARM6C/view?usp=sharing'
+  url = 'https://drive.google.com/u/0/uc?id=1T5BntQPxoRjGDMAUbqUwUnsDs2DARM6C&export=download'
   output = 'run2.tar'
   print("Downloading pretrained model...")
   gdown.download(url, output, quiet=False)
