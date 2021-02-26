@@ -20,7 +20,7 @@ gpt2.generate(sess,
               run_name='run2'
               )
 ```
-
+```
 Nexity is always the offensive
 character of something, even though
 ====================
@@ -78,3 +78,4 @@ not thorough, but special is the
 Nexity is merely a metaphysical term; for the underlying idea is
 ====================
 Nexity is lonely.
+```
