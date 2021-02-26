@@ -8,18 +8,9 @@
 Note: dont work on 3.8 or 2.7 or if you using 2011> cpu
 
 ## Test
-```
-Prefix: Nexity is
-gpt2.generate(sess,
-              length=5,
-              temperature=1.7,
-              prefix="Nexity is",
-              top_k=0,
-              nsamples=5,
-              batch_size=5,
-              run_name='run2'
-              )
-```
+
+### Prefix: Nexity is
+
 ```
 Nexity is always the offensive
 character of something, even though
