@@ -5,6 +5,7 @@ if not os.path.isfile("run2.tar"):
   url = 'https://drive.google.com/u/0/uc?id=1T5BntQPxoRjGDMAUbqUwUnsDs2DARM6C&export=download'#You can set your to your own model on gdrive
   #ok but this is run2.tar
   #not shakespeare.txt, so how to train your own
+  #good question https://github.com/minimaxir/gpt-2-simple or https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce
   output = 'run2.tar'
   print("Downloading pretrained model...")
   gdown.download(url, output, quiet=False)
