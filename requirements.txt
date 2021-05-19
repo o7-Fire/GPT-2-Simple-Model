@@ -20,8 +20,8 @@ regex==2020.11.13
 requests==2.25.1
 six==1.15.0
 tensorboard==1.15.0
-tensorflow==1.15.2
-tensorflow-estimator==1.15.1
+tensorflow==1.15.0
+tensorflow-estimator==1.15.0
 termcolor==1.1.0
 toposort==1.6
 tqdm==4.57.0
