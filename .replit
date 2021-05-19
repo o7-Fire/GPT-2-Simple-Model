@@ -1,0 +1,2 @@
+language = "python2"
+run = "chmod +x ./init.sh && ./init.sh"
