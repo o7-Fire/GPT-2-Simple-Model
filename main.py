@@ -22,3 +22,12 @@ print(gpt2.generate(sess,
                     batch_size=5,
                     run_name=runName
                     ))
+def generate(prefixs="nexity"):
+  return gpt2.generate(sess,
+                    length=250,
+                    temperature=0.7,
+                    prefix=prefixs,
+                    nsamples=5,
+                    batch_size=5,
+                    run_name=runName
+                    )
